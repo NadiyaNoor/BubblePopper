@@ -1,0 +1,77 @@
+body{
+    background-image: url("background.jpeg");
+    background-size: cover;
+}
+
+.score{
+    font-size: 100px;
+    text-align: center;
+}
+
+#pointsEarned{
+    text-align: center;
+}
+
+.bubble {
+    width: 300px;
+    height: 294px;
+    background-image: url("bubble.png");
+    margin-top: 100px;
+    border-radius: 100%;
+    border: 3px;
+    position: relative;
+    /* margin-left: 40%; */
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+:focus-visible {
+    outline: none;
+}
+
+/* .bubble:active {
+    opacity: 0;
+} */
+
+.upgrades{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.upgrade{
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    /* opacity: 1;  */
+}
+
+/* .upgrade:hover{
+    opacity: 0; 
+} */
+
+
+.upgradeName{
+    font-size: 25px;
+}
+
+.upgradeCost{
+    font-size: 25px;
+}
+
+.multiplier{
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    /* border: 3px solid rgb(178, 123, 192); */
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
